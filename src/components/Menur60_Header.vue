@@ -28,7 +28,7 @@
 
         <!-- Navigation Links -->
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto text-center">
+          <ul class="navbar-nav my-2 ms-auto text-center">
             <li class="nav-item">
               <a
                 class="nav-link"
