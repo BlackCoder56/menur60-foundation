@@ -6,11 +6,11 @@
         <a class="navbar-brand d-flex align-items-center gap-2" href="#">
           <div
             class="rounded-circle bg-warning text-center text-dark fw-bold d-flex justify-content-center align-items-center"
-            style="width: 40px; height: 40px;"
+            style="width: 50px; height: 45px;"
           >
-            M60
+            M60<sup>0</sup>
           </div>
-          <span>Menur 60 Foundation</span>
+          <span><strong>Menur60<sup>0</sup></strong> Foundation</span>
         </a>
 
         <!-- Hamburger Menu -->
@@ -43,7 +43,7 @@
                 href="#about"
                 :class="{ active: activeLink === '#about' }"
                 @click="setActiveLink('#about')"
-              >About</a>
+              >About us</a>
             </li>
             <li class="nav-item">
               <a

@@ -62,6 +62,7 @@
       transform: translateX(100%);
       animation: slideIn 2s ease-out forwards;
     }
+     
   }
   
   /* Fade-in keyframes */
