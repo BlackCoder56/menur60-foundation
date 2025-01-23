@@ -57,9 +57,9 @@
               <a
                 class="nav-link"
                 href="#services"
-                :class="{ active: activeLink === '#services' }"
-                @click="setActiveLink('#services')"
-              >Services</a>
+                :class="{ active: activeLink === '#donate' }"
+                @click="setActiveLink('#donate')"
+              >Donate</a>
             </li>
             <li class="nav-item">
               <a
