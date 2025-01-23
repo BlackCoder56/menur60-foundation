@@ -99,9 +99,9 @@ export default {
 
 <style scoped>
 .projects-page {
-  background: linear-gradient(to bottom, #E3FDFD, #D4F8E8, #FFEFD6);
+  background: linear-gradient(to top, #E3FDFD, #7cb199, #FFEFD6);
   animation: fadeInBg 2s ease-in-out;
-  height: 95vh;
+  min-height: 100vh;
 }
 
 .project-card {
@@ -133,7 +133,7 @@ export default {
 
 @keyframes fadeInBg {
   0% {
-    background: #030303;
+    background: #E3FDFD;
   }
   100% {
     background: linear-gradient(to bottom, #E3FDFD, #D4F8E8, #FFEFD6);
