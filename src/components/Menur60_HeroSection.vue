@@ -53,14 +53,14 @@
   /* Image fade-in animation for mobile */
   .animated-image img {
     opacity: 0;
-    animation: fadeIn 3s ease-out forwards;
+    animation: fadeIn 2s ease-out forwards;
   }
   
   /* Slide-in animation for larger screens */
   @media (min-width: 768px) {
     .animated-image {
       transform: translateX(100%);
-      animation: slideIn 2s ease-out forwards;
+      animation: slideIn 1s ease-out forwards;
     }
      
   }

@@ -6,7 +6,7 @@
       <!-- Top Picture (Visible on Desktop Only) -->
       <div class="top-image d-none d-md-block mb-4">
         <img 
-          :src="require('@/assets/img/about-us.jpg')" 
+          :src="require('@/assets/img/about-us2.jpg')" 
           alt="About Us Image" 
           class="img-fluid rounded shadow">
       </div>
