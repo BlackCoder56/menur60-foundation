@@ -15,15 +15,15 @@
             <form>
               <div class="mb-3">
                 <label for="name" class="form-label">Your Name</label>
-                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                <input type="text" class="form-control" id="name" required placeholder="Enter your name">
               </div>
               <div class="mb-3">
                 <label for="email" class="form-label">Email Address</label>
-                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                <input type="email" class="form-control" id="email" required placeholder="Enter your email">
               </div>
               <div class="mb-3">
                 <label for="message" class="form-label">Message</label>
-                <textarea class="form-control" id="message" rows="5" placeholder="Write your message here..."></textarea>
+                <textarea class="form-control" id="message" rows="5" required placeholder="Write your message here..."></textarea>
               </div>
               <button type="submit" class="btn btn-success">Send Message</button>
             </form>
@@ -75,7 +75,7 @@ export default {
 
 <style scoped>
 .contact-page {
-  background: linear-gradient(to bottom, #E3FDFD, #D4F8E8, #FFEFD6);
+  background: linear-gradient(to top, #E3FDFD, #D4F8E8, #FFEFD6);
   animation: gradientShift 10s ease infinite;
 }
 
