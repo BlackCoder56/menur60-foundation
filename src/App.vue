@@ -5,6 +5,7 @@
     <Menur60_About />
     <Menur60_Projects />
     <Menur60_Contact />
+    <Menur60Footer />
     <router-view/>
   </div>
 </template>
@@ -15,6 +16,7 @@
   import Menur60_About from './components/Menur60_About.vue';
   import Menur60_Projects from './components/Menur60_Projects.vue';
   import Menur60_Contact from './components/Menur60_Contact.vue';
+  import Menur60Footer from './components/Menur60Footer.vue';
 
 
 
@@ -26,6 +28,7 @@
       Menur60_About,
       Menur60_Projects,
       Menur60_Contact,
+      Menur60Footer,
     },
   };
 </script>

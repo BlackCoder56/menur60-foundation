@@ -74,7 +74,7 @@
           <!-- Twitter Icon -->
           <div class="mt-3 text-center">
             <a href="https://twitter.com" target="_blank" class="text-white">
-              <i class="bi bi-twitter fs-4"></i>
+              <i class="bi bi-twitter-x fs-4"></i>
             </a>
           </div>
         </div>
